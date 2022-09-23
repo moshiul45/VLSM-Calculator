@@ -12,7 +12,7 @@ The purpose of this calculator was to simplify your subnetting computations. Thi
 
 - Enter number of subnet of subnet you need.
 - Enter the IP & CIDR which you want to subnet
-- Hit Calculate. Boom !
+- Hit Calculate and Booom !
 
 ## Installation
 
