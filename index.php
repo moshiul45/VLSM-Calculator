@@ -476,7 +476,7 @@ function calulate_usable_ip_range(){
 	<title>VLSM CALCULATOR</title>
 </head>
 <body>
-<form method="POST" action="vlsm.php">
+<form method="POST" action="index.php">
        	<label>HOW MANY SUBNET DO YOU NEED?</label>
        	<select style="width: 180px;height: 30px" name="sub_number" value="<?php echo $cn_value; ?>">
        		<option value="" selected disabled>please Select an option</option>
@@ -521,7 +521,7 @@ function calulate_usable_ip_range(){
 	           	<td><input type="text" name="<?php echo "host_number".$i ?>"></td>
 	           </tr>
             
-             <?  }?>
+             <?php  }?>
              <tr align="center">
              	<td colspan="2"><input type="submit" name="btn_calculate" value="CALCULATE"></td>
              </tr>
